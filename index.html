@@ -1,17 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Ticketing</title>
     <!-- Daisy UI and Tailwind -->
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
+
 <body>
-    
+    <!-- header section -->
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-[#030712]">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">P.Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-[#030712]">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-[#1DD1001A]"> <span class="text-[#1DD100]">Buy</span>
+                        <img src="images/bus-icon.png" alt="" srcset="">
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+        <div>
+            <div class="hero min-h-screen rounded-3xl" style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="text-white font-extrabold text-4xl">End-to-End Travel with</h1>
+                        <h1 class="mb-5 text-2xl font-bold text-[#1DD100]">P Paribahan</h1>
+                        <p class="mb-5 text-[#FFFFFF]">Yes, you can run unit tests and view the results directly within the app. The
+                            integrated testing features allow for a streamlined.</p>
+                        <button class="btn btn-primary bg-[#1DD100] text-black font-bold">Buy Ticket</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main  -->
+    <main>
+        <!-- best offer section -->
+        <section class="container mx-auto my-20 space-y-14">
+            <h1 class="text-black text-2xl font-bold flex justify-center">Best offer for you</h1>
+            <div class="flex justify-center gap-x-4">
+                <!-- 15% off -->
+                <div class="flex flex-1 justify-around items-center bg-[#FFBF0F] rounded-2xl">
+                    <div>
+                        <h1 class="text-black font-extrabold">15% OFF</h1>
+                        <p>on your next purchase</p>
+                        <p>use by January 2024</p>
+                    </div>
+                    <img src="images/cupon-devider.png" alt="" srcset="">
+                    <div>
+                        <h1 class="text-black font-bold">NEW 15</h1>
+                        <p>Coupon Code</p>
+                    </div>
+                </div>
+                <!-- couple offer -->
+                <div class="flex flex-1 justify-around items-center bg-[#F78C9C] rounded-2xl">
+                    <div>
+                        <h1 class="text-black font-extrabold">15% OFF</h1>
+                        <p>on your next purchase</p>
+                        <p>use by January 2024</p>
+                    </div>
+                    <img src="images/cupon-devider.png" alt="" srcset="">
+                    <div>
+                        <h1 class="text-black font-bold">Couple 20</h1>
+                        <p>Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="btn text-[#1DD100] font-bold bg-[#1DD1000D] border-solid border-[#1DD100]">See All Offers</button>
+            </div>
+        </section>
+        <!-- p.h paribahan section  -->
+        <section class="border-solid border-t-2 border-[#1DD100] rounded-t-2xl">
+            <!-- paribahan  -->
+            <div class="container mx-auto ">
+                <h1 class="flex justify-center items-center font-extrabold">P.H Paribahan</h1>
+                <p class="flex justify-center items-center text-[#030712]">World class seat with sufficient amount.</p>
+                <!-- Greenline Paribahan -->
+                <div class="flex justify-around">
+                    <div></div>
+                    <img src="images/info-devider.png" alt="" srcset="">
+                    <div></div>
+                </div>
+            </div>
+            <!-- select  -->
+            <div></div>
+        </section>
+    </main>
+    <!-- footer section  -->
+    <footer>
+        
+    </footer>
+
     <script src="index.js"></script>
 </body>
+
 </html>
