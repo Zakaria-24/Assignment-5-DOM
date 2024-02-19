@@ -12,13 +12,13 @@
 
     <!-- Styles css  -->
     <link rel="stylesheet" href="index.css">
-    
+
 
 </head>
 
 <body>
-        <!-- header section -->
-    <header class="container mx-auto">
+    <!-- header section -->
+    <header class="container mx-auto ">
         <nav class="py-6">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -38,7 +38,7 @@
                             <li><a>Search</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl">P.Ticket</a>
+                    <a class="btn btn-ghost text-2xl font-bold">P.Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-[#030712]">
@@ -57,17 +57,19 @@
                 </div>
             </div>
         </nav>
-        <div>
+        <!-- banner -->
+        <div class="">
             <div class="hero min-h-screen rounded-3xl" style="background-image: url(images/banner.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
                         <h1 class="text-white font-extrabold text-4xl">End-to-End Travel with</h1>
-                        <h1 class="mb-5 text-2xl font-bold text-[#1DD100]">P Paribahan</h1>
+                        <h1 class="mb-5 text-3xl font-bold text-[#1DD100]">Zacky Paribahan</h1>
                         <p class="mb-5 text-[#FFFFFF]">Yes, you can run unit tests and view the results directly within
                             the app. The
                             integrated testing features allow for a streamlined.</p>
-                        <button class="btn btn-primary bg-[#1DD100] text-black font-bold">Buy Ticket</button>
+                        <a class="btn btn-primary bg-[#1DD100] text-black font-bold" href="#zacky-paribahan">Buy
+                            Ticket</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +80,7 @@
         <!-- best offer section -->
         <section class="container mx-auto my-20 space-y-14">
             <h1 class="text-black text-2xl font-bold flex justify-center">Best offer for you</h1>
-            <div class="flex justify-center gap-x-4">
+            <div class="lg:flex justify-center space-y-6 lg:space-y-0 lg:space-x-6">
                 <!-- 15% off -->
                 <div class="flex flex-1 justify-around items-center bg-[#FFBF0F] rounded-2xl">
                     <div>
@@ -111,22 +113,23 @@
                     Offers</button>
             </div>
         </section>
-        <!-- p.h paribahan section  -->
-        <section class="border-solid border-t-2 border-[#1DD100] rounded-t-2xl bg-[#F7F8F8]">
+        <!-- z.zacky section  -->
+        <section id="zacky-paribahan" class="border-solid border-t-2 border-[#1DD100] rounded-t-2xl bg-[#F7F8F8]">
             <!-- paribahan  -->
             <div class="container mx-auto py-20 space-y-10">
                 <div>
-                    <h1 class="flex justify-center items-center font-extrabold">P.H Paribahan</h1>
+                    <h1 class="flex justify-center items-center text-black text-2xl font-extrabold">Z . Zacky Paribahan
+                    </h1>
                     <p class="flex justify-center items-center text-[#030712]">World class seat with sufficient amount.
                     </p>
                 </div>
-                <!-- Greenline Paribahan -->
-                <div class="flex justify-evenly items-center bg-[#FFFFFF] rounded-2xl gap-x-6 ">
-                    <!-- Greenline details  -->
+                <!-- zacky Paribahan -->
+                <div class="flex justify-evenly items-center bg-[#FFFFFF] rounded-2xl gap-x-6 mr-4 mx-6 lg:mx-0">
+                    <!-- zacky details  -->
                     <div class="w-[700px] space-y-6">
                         <!-- g.p.s  -->
                         <div class="flex justify-between items-center">
-                            <!-- Greenline logo  -->
+                            <!-- zacky logo  -->
                             <div class="flex justify-between gap-x-2">
                                 <div>
                                     <img src="images/bus-logo.png" alt="" srcset="">
@@ -136,7 +139,7 @@
                                     <p>Coach-009-WEB ! AC_Business</p>
                                 </div>
                             </div>
-                            <!-- Greenline btn  -->
+                            <!-- zacky btn  -->
                             <div>
                                 <button class="flex justify-center bg-[#1DD1001A] text-[#1DD100] p-3 rounded-xl">
                                     <img src="images/seat-green.png" alt="" srcset="">
@@ -178,9 +181,9 @@
                 </div>
 
                 <!-- select  -->
-                <div class="bg-[#FFFFFF] grid grid-cols-2 rounded-2xl pl-6 space-x-6 pb-6">
+                <div class="bg-[#FFFFFF] grid grid-cols-1 lg:grid-cols-2 rounded-2xl pl-6 space-x-6 pb-6 py-6 space-y-6 lg:space-y-0">
                     <!-- seat  -->
-                    <div class="space-y-4">
+                    <div class="px-6 lg:px-0 space-y-4">
                         <h1 class="text-[#030712] font-semibold">Select Your Seat</h1>
                         <hr>
                         <div class="flex justify-between">
@@ -199,10 +202,10 @@
                                     srcset=""></button>
                         </div>
                         <!-- choice seat -->
-                        <div class="space-y-4 ">
+                        <div class="space-y-6">
                             <div class="flex items-center justify-around">
                                 <p>A</p>
-                                <div class="flex justify-between space-x-5">
+                                <div class="flex justify-between space-x-2 lg:space-x-5">
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">A1</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">A2</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">A3</button>
@@ -211,7 +214,7 @@
                             </div>
                             <div class="flex items-center justify-around">
                                 <p>B</p>
-                                <div class="flex justify-between space-x-5">
+                                <div class="flex justify-between space-x-2 lg:space-x-5">
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">B1</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">B2</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">B3</button>
@@ -220,7 +223,7 @@
                             </div>
                             <div class="flex items-center justify-around">
                                 <p>C</p>
-                                <div class="flex justify-between space-x-5">
+                                <div class="flex justify-between space-x-2 lg:space-x-5">
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">C1</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">C2</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">C3</button>
@@ -229,7 +232,7 @@
                             </div>
                             <div class="flex items-center justify-around">
                                 <p>D</p>
-                                <div class="flex justify-between space-x-4">
+                                <div class="flex justify-between space-x-2 lg:space-x-4">
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">D1</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">D2</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">D3</button>
@@ -238,7 +241,7 @@
                             </div>
                             <div class="flex items-center justify-around">
                                 <p>E</p>
-                                <div class="flex justify-between space-x-5">
+                                <div class="flex justify-between space-x-2 lg:space-x-5">
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">E1</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">E2</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">E3</button>
@@ -247,7 +250,7 @@
                             </div>
                             <div class="flex items-center justify-around">
                                 <p>F</p>
-                                <div class="flex justify-between space-x-5">
+                                <div class="flex justify-between space-x-2 lg:space-x-5">
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">F1</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">F2</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">F3</button>
@@ -256,7 +259,7 @@
                             </div>
                             <div class="flex items-center justify-around">
                                 <p>G</p>
-                                <div class="flex justify-between space-x-4">
+                                <div class="flex justify-between space-x-2 lg:space-x-4">
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">G1</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">G2</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">G3</button>
@@ -265,7 +268,7 @@
                             </div>
                             <div class="flex items-center justify-around">
                                 <p>H</p>
-                                <div class="flex justify-between space-x-5">
+                                <div class="flex justify-between space-x-2 lg:space-x-5">
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">H1</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">H2</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">H3</button>
@@ -274,7 +277,7 @@
                             </div>
                             <div class="flex items-center justify-around">
                                 <p>I</p>
-                                <div class="flex justify-between space-x-7">
+                                <div class="flex justify-between space-x-5 lg:space-x-7">
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">I1</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">I2</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">I3</button>
@@ -283,7 +286,7 @@
                             </div>
                             <div class="flex items-center justify-around">
                                 <p>J</p>
-                                <div class="flex justify-between space-x-6">
+                                <div class="flex justify-between space-x-5 lg:space-x-6">
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">J1</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">J2</button>
                                     <button class="A bg-[#F7F8F8] rounded-xl px-10 py-2">J3</button>
@@ -291,7 +294,7 @@
                                 </div>
                             </div>
                         </div>
-                    
+
                     </div>
                     <!-- counter  -->
                     <div>
@@ -301,26 +304,42 @@
                             <!-- table  -->
                             <div class="bg-[#F7F8F8] rounded-xl p-4 space-y-2 mr-4">
                                 <div class="flex justify-between text-black font-bold text-xl">
-                                    <h1>Seat <span id="count-seat" class="bg-[#1DD100] text-white px-1 font-bold">0</span></h1>
+                                    <h1>Seat <span id="count-seat"
+                                            class="bg-[#1DD100] text-white px-1 font-bold">0</span></h1>
                                     <h1>Class</h1>
                                     <h1>Price</h1>
                                 </div>
                                 <hr>
+                                <!-- economy  -->
                                 <div id="economy">
 
                                 </div>
+                                <hr>
+
                                 <!-- total  -->
-                                <div class="flex justify-between text-black font-semibold">
+                                <div class="flex justify-between text-black text-xl font-bold">
                                     <h1>Total Price</h1>
                                     <h1>BDT <span id="total-price">0</span></h1>
                                 </div>
-                                <div id="apply-btn-container" class="flex justify-between items-center bg-[#FFFFFF] rounded-xl p-4">
-                                    <input id="coupon-apply-input" class="w-full " type="text" placeholder="Have any coupon?">
-                                    <button id="apply-btn" class="bg-[#1DD100] text-[#FFFFFF] rounded-xl px-4 py-2">Apply</button>
+
+                                <br>
+
+                                <!-- discount  -->
+                                <div id="discount">
+
+                                </div>
+                                <hr>
+
+                                <div id="apply-btn-container"
+                                    class="flex justify-between items-center bg-[#FFFFFF] rounded-xl p-4">
+                                    <input id="coupon-apply-input" class="w-full " type="text"
+                                        placeholder="Have any coupon?">
+                                    <button id="apply-btn"
+                                        class="bg-[#1DD100] text-[#FFFFFF] rounded-xl px-4 py-2">Apply</button>
                                 </div>
 
                                 <!-- grand total  -->
-                                <div class="flex justify-between text-black font-semibold">
+                                <div class="flex justify-between text-black text-xl font-bold">
                                     <h1>Grand Total</h1>
                                     <h1>BDT <span id="grand-total">0</span></h1>
                                 </div>
@@ -334,7 +353,28 @@
                             <h1 class="text-black font-bold text-xl">Email ID*</h1>
                             <input id="email" class="w-full border-solid border-2 rounded-xl p-4" type="email"
                                 placeholder="Enter Your email id">
-                            <button id="next-btn" class="w-full bg-[#1DD100] text-[#FFFFFF] rounded-xl px-4 py-3">Next</button>
+
+                            <!-- Open the modal using ID.showModal() method -->
+                            <button class="w-full btn bg-green-500" onclick="my_modal_5.showModal()">Next</button>
+                            <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                                <div class="modal-box flex flex-col justify-center items-center">
+                                    <img src="images/success.png" alt="" srcset="">
+                                    <h3 class="font-bold text-2xl text-green-500">Success</h3>
+                                    <p class="py-4"><span class="text-black font-bold">Thank you for Booking Our Bus
+                                            Seats.
+                                            We are working hard to find the best service and deals for you.</span>
+                                        <br>
+                                        Shortly you will find a confirmation in your email.
+                                    </p>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                            <!-- if there is a button in form, it will close the modal -->
+                                            <button class="btn bg-green-500">Continue</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </dialog>
+
                             <div class="flex justify-evenly">
                                 <p class="bg-[#F7F8F8] underline">Terms and Conditions</p>
                                 <p class="bg-[#F7F8F8] underline">Cancellation Policy</p>
@@ -345,6 +385,8 @@
             </div>
         </section>
     </main>
+
+
     <script src="scripts/index.js"></script>
 </body>
 
