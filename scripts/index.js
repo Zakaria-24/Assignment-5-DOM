@@ -90,6 +90,7 @@ applyBtn.addEventListener("click", function () {
     } else {
         alert("Coupon code is not valid! So, you will not get any discount..!");
         document.getElementById("coupon-apply-input").value = "";
+        return;
     }
 
 
@@ -104,8 +105,6 @@ applyBtn.addEventListener("click", function () {
         p2.innerText = price * 0.15;
     } else if (coupon === "Couple 20") {
         p2.innerText = price * 0.2;
-    }else{
-        p2.innerText = 0;
     }
 
 
